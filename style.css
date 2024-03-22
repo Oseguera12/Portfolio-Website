@@ -2,3 +2,55 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: linear-gradient(-45deg, #0080ff, #024e50, #00ffaa, #00222e);
+  background-attachment: fixed;
+  background-size: 800% 800%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  
+  color: aliceblue;
+  font-family: "Ubuntu Mono";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+section {
+  background-color: rgba(0, 69, 90, 0.80);
+  padding: 2rem 2rem;
+  margin: 4vh 5vw;
+  border:3px solid #00C2CE;
+  border-radius: 30px;
+  height: 40rem;
+  box-shadow: 0px 4px 40px #00C2CE;
+}
+
+h2 {
+  position: relative;
+  top: -5vh;
+  color: aliceblue;
+  background-color: #00455A;
+  border: 3px solid #00C2CE;
+  border-radius: 30px;
+  padding: 1vh 2vw;
+  width: 8rem;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+#home img {
+  width: 36px;
+  height: 36px;
+}
+
+@keyframes gradient {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
