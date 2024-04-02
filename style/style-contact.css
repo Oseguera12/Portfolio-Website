@@ -1,0 +1,15 @@
+#contact ul {
+  list-style-type: none;
+
+  margin-top: 3rem;
+}
+  
+#contact li {
+  text-transform: uppercase;
+}
+  
+#contact hr {
+  width: 14rem;
+  
+  margin: 0.2rem 0rem;
+}

@@ -1,0 +1,115 @@
+.style-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+  
+#projects figure {
+  background-color: #1E252B;
+  
+  width: 22.5rem;
+  height: 22.5rem;
+  
+  margin: 0% 1% 1% 0%;
+  
+
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+#projects .image-1 {
+  background-image: url(/images/project1img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projects .image-1:hover {
+  background-blend-mode: multiply;
+  transition: opacity 0.6s ease-in-out;
+}
+
+#projects .image-1:not(:hover) {
+  background-blend-mode: hard-light;
+}
+
+#projects .image-2 {
+  background-image: url(/images/project2img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projects .image-2:hover {
+  background-blend-mode: multiply;
+  transition: opacity 0.6s ease-in-out;
+}
+
+#projects .image-2:not(:hover) {
+  background-blend-mode: hard-light;
+}
+
+#projects .image-3 {
+  background-image: url(/images/project3img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#projects .image-3:hover {
+  background-blend-mode: multiply;
+  transition: opacity 0.6s ease-in-out;
+}
+
+#projects .image-3:not(:hover) {
+  background-blend-mode: hard-light;
+}
+
+#projects figure p {
+  margin: 1rem;
+}
+  
+#projects .project1 .back-card {
+  display: none;
+  text-decoration: none;
+  opacity: 0;
+}
+
+#projects .project1 .front-card,
+#projects .project1 .back-card {
+  transition: opacity 0.6s ease-in-out;
+}
+
+#projects .project1:hover .front-card {
+  opacity: 0;
+}
+
+#projects .project1:hover .back-card {
+  display: block;
+  opacity: 1;
+}
+  
+#projects .project1:not(:hover) .back-card {
+  display: block;
+  opacity: 0;
+}
+  
+button {
+  color: #FFF;
+  background-color: #0D0D0D;
+  
+  border: none;
+  text-decoration: none;
+  
+  display: inline-block;
+  padding: 1rem 3rem;
+  
+  font-family: Metrophobic;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.1rem;
+  text-transform: uppercase;
+}
+  
+button:hover {
+  color: #00D1FF;
+}
