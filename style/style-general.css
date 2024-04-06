@@ -1,39 +1,37 @@
 * {
+  border: 1px solid none;
   margin: 0;
   padding: 0;
 }
 
 body {
-  color: #FFF;
-  background-color: #0D0D0D;
-
   font-family: "Metrophobic", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   font-size: 1.5rem;
-
+  background-color: #0D0D0D;
+  color: #FFF;
   margin: 5% 8%;
 }
 
 section {
   margin: 50px 0px;
 }
-
 section h2 {
-  text-transform: uppercase;
+  font-family: "Metrophobic", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 2rem;
-
+  text-transform: uppercase;
   margin-bottom: 2rem;
 }
 
 a {
   text-decoration: none;
 }
-
 a:hover {
   color: #00D1FF;
 }
-
 a:visited {
-  color: #FFF
-}
+  color: #FFF;
+}/*# sourceMappingURL=style-general.css.map */

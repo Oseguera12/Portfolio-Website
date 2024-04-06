@@ -1,0 +1,28 @@
+@use 'base'
+
+*
+  @include base.frame
+  margin: 0
+  padding: 0
+
+body
+  @include base.paragraph
+  background-color: base.$primary-color
+  color: base.$secondary-color
+  margin: 5% 8%
+
+section
+  margin: 50px 0px
+
+  & h2
+    @include base.heading-two
+    margin-bottom: 2rem
+
+a
+  text-decoration: none
+
+  &:hover
+    color: base.$accent-color
+
+  &:visited 
+    color: base.$secondary-color

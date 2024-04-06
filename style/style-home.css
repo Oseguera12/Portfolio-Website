@@ -1,46 +1,37 @@
 #home {
   text-transform: uppercase;
 }
-  
 #home h1 {
   font-family: "Pavanam", sans-serif;
-  font-weight: 400;
   font-style: normal;
-  font-size: 2rem;
+  font-weight: 400;
+  font-size: 2.75rem;
+  text-transform: uppercase;
 }
-  
 #home header {
-  font-size: 2.635rem;
-  
   margin-top: 6rem;
   margin-bottom: 1rem;
 }
-  
-.menu-icon {
-  position: fixed;
-  top: 5%;
-  right: 8%;
-
-  height: 2rem;
-}
-  
 #home img {
   width: 24px;
   height: 24px;
 }
-  
 #home p {
   text-transform: uppercase;
-  
   margin-right: 40%;
   margin-bottom: 10rem;
 }
-  
 #home a {
   font-size: 1.25rem;
 }
-  
 #home .link {
   margin-top: 1rem;
   margin-bottom: 6rem;
 }
+
+.menu-icon {
+  position: fixed;
+  top: 5%;
+  right: 8%;
+  height: 2rem;
+}/*# sourceMappingURL=style-home.css.map */
